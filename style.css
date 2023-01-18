@@ -50,7 +50,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     gap: 100px 20px;
-
+    
 }
 
 .card {
@@ -59,12 +59,20 @@ main {
 }
 
 .textContainer {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-between; */
+    
     padding: 20px 20px 60px;
     border: 1px solid #33793f;
+    
 }
 
 .title {
     font-size: 36px;
+    color: #33793f;
+    font-weight: 500;
 }
 
 .text {
