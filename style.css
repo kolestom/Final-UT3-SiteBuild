@@ -1,3 +1,101 @@
-h1 {
-    background-color: aqua;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+body {
+    background-color: #fff257;
+}
+header {
+    position: fixed;
+    height: 100%;
+    width: 60px;
+    /* background-color: #fff257; */
+    background-color: #33793f;
+    color: #fff257;
+}
+header span {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    font-size: 36px;
+}
+
+nav {
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    background-color: #33793f;
+    color: #fff257;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    padding: 2rem;
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px 20px;
+
+}
+
+.card {
+    width: 300px;
+    position: relative;
+}
+
+.textContainer {
+    padding: 20px 20px 60px;
+    border: 1px solid #33793f;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: normal;
+    color: #33793f;
+}
+
+.sub {
+    padding: 5px;
+    font-size: 12px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #33793f;
+    color: #fff257;
+    letter-spacing: 0.2rem;
+
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff257;
+    background-color: #33793f;
+}
+.button span {
+    padding: 5px;
+}
+.button:hover {
+    background-color: #fff257;
+    color: #33793f;
 }
